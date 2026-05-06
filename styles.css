@@ -1,0 +1,67 @@
+body {
+  font-family: Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;;
+}
+
+header {
+  background: rgba(158, 110, 176, 0.717);
+  padding: 10px;
+
+}
+
+#image_header {
+  margin-left: 5px;
+}
+
+#image_header:hover {
+  transform: scale(1.2);
+  transition: 0.5s;
+}
+
+#image_header:not(:hover) {
+  transform: scale(1);
+  transition: 0.5s;
+}
+
+header span {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+  
+}
+
+#navPrincipal ul {
+  text-align: center;
+  display: flex;
+  gap: 15px;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+
+}
+
+nav {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: white;
+  background-color: rgb(230, 175, 255);
+  transition: 0.5s;
+}
+
+#welcome {
+  background: rgba(217, 165, 169, 0.346);
+
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
