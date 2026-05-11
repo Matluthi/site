@@ -4,13 +4,20 @@ body {
 
 header {
   background: rgba(158, 110, 176, 1);
-  padding: 10px;
+  backdrop-filter: blur(10px);
+  padding: 14px 12px;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 1000;
+  transition: transform 0.3s ease, padding 0.3s ease, background-color 0.3s ease;
+}
 
+header.header-partial {
+  transform: translateY(-50%);
+  padding: 8px 12px;
+  background: rgba(158, 110, 176, 0.45);
 }
 
 #image_header {
@@ -55,7 +62,7 @@ nav a {
   color: white;
   text-decoration: none;
   display: inline-block;
-  padding: 8px 12px;
+  padding: 20px 18px;
   border-radius: 8px;
   transition: color 0.5s, background-color 0.5s;
 }
