@@ -39,7 +39,6 @@ header span {
   align-items: center;
   gap: 20px;
 
-  
 }
 
 #navPrincipal ul {
@@ -74,6 +73,33 @@ nav a h4 {
 nav a:hover {
   color: white;
   background-color: rgb(230, 175, 255);
+}
+
+@media (max-width: 720px) {
+  header {
+    padding: 10px 8px;
+  }
+
+  header span {
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: space-between;
+  }
+
+  #navPrincipal ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+  }
+
+  nav a {
+    padding: 10px 14px;
+    font-size: 0.95rem;
+  }
+
+  header.header-partial {
+    transform: translateY(-30%);
+  }
 }
 
 #welcome {
