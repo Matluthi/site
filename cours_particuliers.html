@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IciCaMath</title>
-    <link rel = "icon" href = "icone.ico">
-    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-    <link rel = stylesheet href = "styles.css"/>
+    <link rel="icon" href="icone.ico">
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" defer></script>
+    <link rel="stylesheet" href="styles.css"/>
 </head>
 <body>
     <header>
@@ -21,16 +21,91 @@
             </a>
             <nav id = "navPrincipal">
                 <ul>
-                    <a href = "maths.html"><h4>Maths</h4></a>
-                    <a href = "physique.html"><h4>Physique</h4></a>
-                    <a href = "cours_particuliers.html"><h4>Cours particuliers</h4></a>
+                    <li><a href="maths.html"><h4>Maths</h4></a></li>
+                    <li><a href="physique.html"><h4>Physique</h4></a></li>
+                    <li><a href="cours_particuliers.html"><h4>Cours particuliers</h4></a></li>
                 </ul>
             </nav>
         </span>
     </header>
 
     <main>
-        
+        <div id = "cours_particuliers_welcome">
+            <h1>Cours particuliers</h1>
+            <p>
+            Ici seront répertoriées les ressources que j'utilise pour mes cours particuliers, ainsi que les supports pdf que je fournis à mes élèves.
+            
+            </p>
+        </div>
+        <div>
+            <h2>Structure des planches</h2>
+            <p>
+                Les planches d'exercices que je fournis à mes élèves sont organisées par niveau de difficulté croissant. <br>
+                Pour un élève souhaitant performer pour le bac seulement, la première voire la deuxième page des planches sera fortement recommandée et le reste plus facultatif. <br>
+                Pour les élèves souhaitant consolider leurs acquis et continuer les mathématiques/la physique dans le supérieur, je recommande de faire l'intégralité des planches, étant constituées d'exercices formateurs et concernant des thèmes classiques du programme de sup. <br>
+                Je joindrai également ci-dessous quelques pages et chaines youtubes que je recommanderai aux élèves les plus motivés, qui souhaitent aller plus loin que les planches d'exercices.
+
+            </p>
+            <ul id = "ressources_supplementaires">
+                <li><a href = "https://www.louislegrand.fr/wp-content/uploads/2022/01/EXOS-TERMINALE3-3-AVECDESSIN.pdf">Polycopié de transition LLG</a> : Polycopié absolument incontournable pour les élèves souhaitant préparer la rentrée dans le sup. </li>
+                <li><a href = "https://www.bibmath.net/">Bibmaths</a> : site proposant des cours et des exercices corrigés sur les programmes de lycée et de prépa.</li>
+                <li><a href = "http://ddmaths.free.fr/">Collection d'exercices de david DELAUNAY</a> : site très complet proposant des exercices parfois corrigés, sur le programme de sup majoritairement.</li>
+                <li><a href = "https://www.youtube.com/@maths-lycee">Hans Amble : Maths au lycée</a> : chaîne YouTube proposant des vidéos de cours et d'exercices corrigés sur les programmes de lycée. Je la recommande vivement, elle existe également pour la sup.</li>
+            </ul>
+        </div>
+        <div id="supports_td">  
+            <h1>Supports de TD</h1>
+                <h2>Mathématiques</h2>
+                    <h3>Programme de Terminale : préparation au bac général</h3>
+
+                    <details id = "integration">
+                        <summary>Intégrales</summary>
+                        <p>
+                            Exercices sur les intégrales au programme de terminale. 
+                        </p>
+                        <embed src="TD Intégrales.pdf" type="application/pdf" width="100%" height="600px" />
+                    </details>
+
+                    <details id = "equa_diff">
+                        <summary>Équations différentielles</summary>
+                        <p>
+                            Ce TD est destiné à des élèves de terminale, et vise à les entraîner sur les équations différentielles.
+                        </p>
+                        <embed src="TD Equa diff.pdf" type="application/pdf" width="100%" height="600px" />
+                    </details>
+
+                    <details id = "limites_suites">
+                        <summary>Limites et suites numériques</summary>
+                        <p>
+                            Ce TD est destiné à des élèves de terminale, et vise à les entraîner sur les limites et les suites numériques. C'est un thème important du programme de terminale et du supérieur,
+                            les intéressés y trouveront alors des exercices difficiles en fin de planche.
+                        </p>
+                        <embed src="TD Limites et suites.pdf" type="application/pdf" width="100%" height="600px" />
+                    </details>
+
+                <h3>Compléments</h3>
+
+                    <details id = "initiative">
+                        <summary>Prise d'initiative</summary>
+                        <p>
+                            Il est fréquent que les élèves soient bloqués sur un exercice, non pas à cause d'une lacune de cours, mais à cause d'un manque de prise d'initiative. Ce TD vise à entraîner les élèves à faire preuve de plus d'autonomie et de créativité dans la résolution d'exercices et présente
+                            en ce sens des exercices plus ouverts que les autres planches, nécessitant l'utilisation sans modération de la feuille de brouillon.
+                        </p>
+                        <embed src="TD Prise d'initiative.pdf" type="application/pdf" width="100%" height="600px" />
+                    </details>
+
+                    <details id = "fractions">
+                        <summary>Révisions : Fractions</summary>
+                        <p>
+                            Ce TD est destiné à des élèves de terminale, et vise à rattraper les lacunes récurrentes sur les fractions qui limitent leur potentiel.
+                        </p>
+                        <embed src="TD Fractions.pdf" type="application/pdf" width="100%" height="600px" />
+                    </details>
+
+
+                <h3>Maths sup</h3>
+                <h3>Maths spé</h3>
+        </div>
     </main>
     <footer>
         <div><h6> Naillon Lesuisse Mattéo </h6></div>
