@@ -48,14 +48,25 @@ header span {
 nav {
   color: white;
   margin: 10px;
-  text-decoration: none;
   font-weight: bold;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 12px;
+  border-radius: 8px;
+  transition: color 0.5s, background-color 0.5s;
+}
+
+nav a h4 {
+  margin: 0;
 }
 
 nav a:hover {
   color: white;
   background-color: rgb(230, 175, 255);
-  transition: 0.5s;
 }
 
 #welcome {
