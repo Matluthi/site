@@ -75,34 +75,39 @@ nav a:hover {
   background-color: rgb(230, 175, 255);
 }
 
-@media (max-width: 720px) {
+@media (max-width: 480px) {
   header {
-    padding: 8px 6px;
+    padding: 6px 4px;
   }
 
   #image_header {
-    width: 50px;
+    width: 40px;
   }
 
   header span {
     flex-wrap: nowrap;
-    gap: 6px;
-    justify-content: space-between;
+    gap: 4px;
   }
 
   #navPrincipal ul {
     flex-wrap: nowrap;
     justify-content: flex-end;
-    gap: 4px;
+    gap: 2px;
   }
 
   nav a {
-    padding: 4px 6px;
-    font-size: 0.8rem;
+    padding: 2px 4px;
+    font-size: 0.75rem;
+  }
+
+  nav a h4 {
+    display: inline;
+    margin: 0;
+    font-size: inherit;
   }
 
   header.header-partial {
-    transform: translateY(-30%);
+    transform: translateY(-25%);
   }
 }
 
