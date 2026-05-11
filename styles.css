@@ -82,19 +82,19 @@ nav a:hover {
 
   header span {
     flex-wrap: wrap;
-    gap: 12px;
+    gap: 8px;
     justify-content: space-between;
   }
 
   #navPrincipal ul {
     flex-wrap: wrap;
     justify-content: center;
-    gap: 8px;
+    gap: 6px;
   }
 
   nav a {
-    padding: 10px 14px;
-    font-size: 0.95rem;
+    padding: 6px 10px;
+    font-size: 0.9rem;
   }
 
   header.header-partial {
