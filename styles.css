@@ -142,10 +142,19 @@ main {
   width: 80%;
 }
 
-#maths_welcome {
+#maths_welcome,
+#cours_particuliers_welcome,
+#welcome {
   background: rgba(217, 165, 169, 0.346);
   padding: 20px;
   width: 80%;
+  text-align: left;
+}
+
+main > div:not(#maths_welcome):not(#cours_particuliers_welcome):not(#welcome) :not(#RAS) {
+  width: 80%;
+  text-align: left;
+  align-self: flex-start;
 }
 
 #supports_td {
